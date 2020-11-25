@@ -1,6 +1,6 @@
 # Card Deck Exercise
 
-#### Requirements:
+### Requirements:
 1. Using a dec of cards API (https://deckofcardsapi.com/), implement a Python app that does the following:
     - Creates and shuffles a deck of cards 
     - Draws 5 cards from the hand and prints their numbers and suits to the console 
@@ -10,19 +10,19 @@
     - Instructions for running the program and tests
     - Any assumptions you made while coding
     
-#### Getting Started
+### Getting Started
 To get a local copy up and running follow these simple steps.
 
-#### Prerequisites
+### Prerequisites
 - python 3
 - requests library
 
-#### Installation
+### Installation
 1. Clone the repo
 
         git clone https:///github.com/eevangelio/poker.git
 
-#### Usage
+### Usage
 - To run the main app
     - navigate to the poker directory
     - execute 
