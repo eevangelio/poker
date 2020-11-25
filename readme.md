@@ -1,6 +1,6 @@
 # Card Deck Exercise
 
-####Requirements:
+#### Requirements:
 1. Using a dec of cards API (https://deckofcardsapi.com/), implement a Python app that does the following:
     - Creates and shuffles a deck of cards 
     - Draws 5 cards from the hand and prints their numbers and suits to the console 
@@ -10,19 +10,19 @@
     - Instructions for running the program and tests
     - Any assumptions you made while coding
     
-####Getting Started
+#### Getting Started
 To get a local copy up and running follow these simple steps.
 
-####Prerequisites
+#### Prerequisites
 - python 3
 - requests library
 
-####Installation
+#### Installation
 1. Clone the repo
 
         git clone https:///github.com/eevangelio/poker.git
 
-####Usage
+#### Usage
 - To run the main app
     - navigate to the poker directory
     - execute 
@@ -38,13 +38,13 @@ To get a local copy up and running follow these simple steps.
     
             python test_card_combination.py
 
-###Assumptions
+### Assumptions
 - I used the standard 52 card deck
 - There will be a total of 10 card draws per shuffle. The program will exit after the 10th draw.
 
 
-###Code
-#####library/Poker.py
+### Code
+##### library/Poker.py
 - shuffle_cards
     - used to create or instantiate a deck of cards
     - uses the requests library to call the HTTP GET "https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1" REST API
@@ -68,7 +68,7 @@ To get a local copy up and running follow these simple steps.
     - subjects the list against different winning card scenarios
     - returns a string of the determined high-scoring card combination
  
-#####test_card_combination.py
+##### test_card_combination.py
 - implements unittest
     - test_straight_flush_card
     - test_four_of_a_kind
