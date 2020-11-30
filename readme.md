@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple steps.
     - navigate to the poker directory
     - execute 
     
-            python test_card_combination.py
+            python -m unittest tests\test_card_combination.py
 
 ### Assumptions
 - I used the standard 52 card deck

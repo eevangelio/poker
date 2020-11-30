@@ -1,6 +1,6 @@
-import unittest
-
 from library.Poker import Poker
+
+import unittest
 
 
 class MyTestCase(unittest.TestCase):
