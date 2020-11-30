@@ -4,8 +4,8 @@ deckID = ""
 
 
 def poker_game():
-    print(f"Welcome to Poker Game!!!\n")
-    print(f"Press 'S' and Enter keys to shuffle card...")
+    print("Welcome to Poker Game!!!\n")
+    print("Press 'S' and Enter keys to shuffle card...")
     while True:
         userinput = input()
         if userinput == "S" or userinput == "s":
@@ -16,7 +16,7 @@ def poker_game():
             print("Invalid input")
 
     drawnumber = 0
-    print(f"Press 'D' to draw cards\nPress 'X' to exit")
+    print("Press 'D' to draw cards\nPress 'X' to exit")
     while True:
         userinput = input()
         if userinput == "D" or userinput == "d":
@@ -32,7 +32,7 @@ def poker_game():
             print("Maximum number of draw cards for a deck has been reached...exiting...")
             break
         else:
-            print(f"Press 'D' to draw cards\nPress 'X' to exit")
+            print("Press 'D' to draw cards\nPress 'X' to exit")
 
 
 def draw_and_lay(deckID):
@@ -45,7 +45,7 @@ def draw_and_lay(deckID):
     remapped = Poker.sort_cards(code)
 
     result = Poker.get_winning_combination(remapped)
-    print(f"Highest-scoring hand is: {result}\n")
+    print("Highest-scoring hand is: {result}\n")
 
 
 # Press the green button in the gutter to run the script.
